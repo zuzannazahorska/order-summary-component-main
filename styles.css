@@ -1,0 +1,136 @@
+@media (max-width:376px) {
+    body {
+        background-image: url('images/pattern-background-mobile.svg');
+
+    }
+}
+
+@media (min-width: 377px) and (max-width:1800px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
+
+html,
+body {
+    height: 100%
+}
+
+body {
+
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #e0e8ff;
+}
+
+h1 {
+    font-weight: 900;
+    padding: 2rem 1rem 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+span {
+    display: inline;
+    text-align: left;
+}
+
+
+.content {
+    width: 330px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 13px 44px -18px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0px 13px 44px -18px rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 13px 44px -18px rgba(0, 0, 0, 0.42);
+    background-color: white;
+}
+
+.col-sm-1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-picture {
+    height: 178px;
+    background-image: url('images/illustration-hero.svg');
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: cover;
+}
+
+.description-text {
+    font-size: 16px;
+    color: #7280a7;
+    margin: 0 26px;
+}
+
+.block {
+    display: block;
+    margin: 0;
+}
+
+.purchase-choice {
+    margin: 30px 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 16px;
+    align-content: center;
+
+}
+
+.plan {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.price {
+    color: #7280a7;
+    font-weight: 700;
+}
+
+.change {
+    color: #3829e0;
+    font-weight: 700;
+    padding-left: 22px;
+}
+
+.change:hover {
+    color: #766cf1;
+}
+
+
+
+
+.btn {
+    border-radius: 13px;
+    padding: 15px;
+    font-size: 16px;
+    width: 90%;
+    font-weight: 900;
+    margin: 5px;
+}
+
+.btn-pay {
+    background-color: #3829e0;
+    color: white;
+    -webkit-box-shadow: 0px 12px 17px -4px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 12px 17px -4px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 12px 17px -4px rgba(0, 0, 0, 0.23);
+}
+
+.btn-pay:hover {
+    background-color: #766cf1;
+}
+
+.btn-cancel {
+    color: #7280a7;
+    margin-bottom: 20px;
+}
+
+.btn-cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
