@@ -1,6 +1,6 @@
 ### Links
 
-- Live Site URL: [Netlify](order-summary-component-main-zzah.netlify.app)
+- Live Site URL: [Netlify](http://order-summary-component-main-zzah.netlify.app)
 
 ## My process
 
